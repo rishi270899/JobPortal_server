@@ -4,7 +4,7 @@ const mongoose = require("mongoose")
 const connectDB = () => {
     return mongoose.connect(process.env.DB_LIVE)
     .then((data) => {
-        console.log(`Connected with mongodb live database`);
+        console.log(`Connected with live mongoDB database`);
 
         
     })
